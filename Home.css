@@ -1,0 +1,237 @@
+body{
+    background-image: url(fondo2.jpg);
+    
+}
+.logotitle{   
+    margin-left: -41%;    
+    text-align: center;
+    font-size: 44px;
+    margin-top: -50px; 
+}
+.moved{
+    margin-left: -42%;    
+    text-align: center;
+    font-size: 44px;
+    margin-top: -50px; 
+}
+.imgn{
+    margin: auto;
+    margin-top: 3%;
+    background-image: url(cabe.jpg);
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    padding-bottom: 180px;
+}
+.imgn2{
+    background-image: url(cabe.jpg);
+    background-repeat: no-repeat;
+    margin-left: 378px;
+    padding-bottom: 180px;
+}
+#selec{
+    text-align: center;
+    border: 1px;
+    border-color: red;
+}
+#pags{
+    
+    margin-top: -1%;
+    margin-left: 15%;
+}
+
+.button{
+    margin-left: 15px;
+    background-color: #82b085;
+    border: 3px double #006505;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25%;
+}
+.set{
+    
+    background-color: #ff0000;
+    border: 3px double #8a0202;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.desc{
+    text-align: left;
+    margin-top: -10px;
+    margin-right: 150px;
+    margin-left: 100px;
+}
+.tides{
+    text-align: left;
+    margin-left: 100px;
+}
+.titulo{
+    text-align: left;
+}
+.tituloinfo{ 
+   
+    margin-right: 100px;
+    text-align: left;
+}
+
+.desccont{
+    text-align: center;
+    margin-top: 50px;   
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.subr{
+   text-decoration: underline;
+}
+table{
+    margin-left: 150px;
+}
+th{
+    border:black 3px dotted;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+td{ 
+    border:black 1px ridge;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.par{
+    background: #ffc203;
+}
+.impar{
+    background: #ffdc4c;
+}
+.tabttl{
+    background: #dfb712;
+}
+div{ 
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.blanco{
+    color: whitesmoke;
+}
+.logo{
+    margin-top: -25px;
+    margin-left: 610px;
+}
+.disc{
+    list-style: disc;
+}
+.num{
+    list-style: decimal;
+}
+.lis{ 
+    margin-top: 30px;
+}
+.letra{
+    list-style: lower-latin;
+}
+.cuad{
+    list-style: square;
+}
+.circ{
+    list-style: circle;
+}
+.flis{
+    margin-top: 30px;
+    margin-left: 128px;
+    margin-right: 100px;
+}
+
+.mejora{
+    background-color: #ffffff86; 
+    margin: auto;
+    margin-top: 2%;
+    margin-right: 25%;
+    margin-left: 15%;
+}
+
+.regs{
+    display: flex;
+    display: block;
+    /*width: 810px;*/
+    
+    border: black 1px ridge;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+label{
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+#street{
+    width: 67%;
+}
+#GB{
+    margin-left: 17px;
+}
+#ysmall{
+    margin-left: 25px;
+}
+#ymed{
+    margin-left: 7px;
+}
+#ylarge{
+    margin-left: 25px;
+}
+#zip{
+    margin-left: 160px;
+}
+#gender{
+    margin-left: 115px;
+}
+#pg{
+    margin-left: -11px;
+}
+#cemail{
+    margin-left: 60px;
+}
+.separat{
+    margin-left: 100px;
+}
+.separa{
+    margin-left: 55px;
+}
+.espacio{
+    margin-left: -70px;
+}
+.antiespacio{
+    margin-left: 70px;
+}
+.submit{
+    margin-left: 350px;
+    background-color: #0fbd17;
+    border: 3px solid #006505;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25%;
+}
+.subclear{
+    margin-left: 150px;
+    background-color: #ff0000;
+    border: 3px solid #650000;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25%;
+}
+a{
+    text-decoration: none;
+    color:  black;
+    font-size: 20px;
+}
+.mapa{
+    margin-left: 150px;
+}
+.linkmapa{
+    font-size: 16px;
+}

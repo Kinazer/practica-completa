@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link
+        rel = "stylesheet"
+        type = "text/css"
+        href="Home.css"
+    \>
+        <title>Registration</title>
+            <div class="imgn">
+                <img class="logo" src="nysl_logo.png"/>
+                <h1 class="logotitle">Northside Youth Soccer League</h1>
+           <!--cambiar imagen y añadir logo en algun lugar-->
+        </div>
+        <div id="pags">
+            <a class="button" href="Home.html">Home</a>
+            <a class="button" href="About.html">About NYSL</a>
+            <a class="button" href="Contact.html" >Contact</a>
+            <a class="button" href="GameInfo.html" >Game Info</a>
+            <a class="button" href="NYSLRules.html" >Rules</a>
+            <a class="button set" href="Registro.html" >Login</a>
+        </div>
+    </head>
+<body>
+    <form action="show_data.html" method="GET">
+        <div class="regs mejora">
+            <div>
+            <label for="name">Player's First Name: </label>
+            <input type="text" id="name" name="First_Name">
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="Last_Name"/>
+            </div>
+            <div>
+                <label for="street">Street Address</label>
+                <input type="text" id="street" name="Street"> 
+            </div>
+            <div>
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="City"/> 
+                    <label for="zip" id="zip">Zip Code</label>
+                    <input type="text" id="zipc" name="ZIP_Code"/> 
+            </div>
+            <div>
+                    <label for="birth">Birth Date (dd/mm/yyyy)</label>
+                    <input type="date" id="birth" name="Bith_Date"/> 
+                    <label for="gender" id="gender">Gender</label>
+                    <input type="radio" id="male" name="Gender" value="Male"/>Male <input type="radio" id="female" name="gender" value="Female"/>female
+            </div>
+            <div>
+                    <label for="grade">Grade</label>
+                    <input type="radio" id="pre" name="Grade" value="pre-school"/>pre-school 
+                    <input type="radio" id="1st" name="Grade" value="1st"/>1st
+                    <input type="radio" id="2nd" name="Grade" value="2nd"/>2nd 
+                    <input type="radio" id="3rd" name="Grade" value="3rd"/>3rd
+                    <input type="radio" id="4th" name="Grade" value="4th"/>4th 
+                    <input type="radio" id="5th" name="Grade" value="5th"/>5th
+            </div>
+            <div>
+                    <label for="pg">Parent/Guardian</label>
+                    <input type="text" id="pg" name="Parent_Guardian"/> 
+            </div>
+            <div>
+                    <label for="phone">Contact Phone</label>
+                    <input type="tel" id="phone" name="Phone"/>
+                    <label for="email" id="cemail" >Contact Email</label>
+                    <input type="email" id="email" name="Email"/>
+            </div>
+        </div>
+        <div class="regs mejora">
+            <h2 class="separat">Which elementary schools do you live near?</h2>
+            <div>
+                <h3 class="separa">First Closest School:</h3>
+                
+            </div>
+            <div class="separa">
+                    <input type="radio" id="AJK" name="First_School" value="AJ Katzenmaier"/>AJ Katzenmaier
+                    <input type="radio" id="GB" name="First_School" value="Greenbay"/>Greenbay
+                    
+                    
+            </div>
+            <div class="separa">
+                    <input type="radio" id="HAY" name="First_School" value="Howard A Yeager"/>Howard A Yeager
+                    <input type="radio" id="MPH" name="First_School" value="Marjorie P Hart"/>Marjorie P Hart
+            </div>
+            <div class="separa">
+                    <input type="radio" id="NE" name="First_School" value="North Elementary"/>North Elementary
+                    <input type="radio" id="SE" name="First_School" value="South Elementary"/>South Elementary
+                    
+            </div>
+            <h3 class="separa">Second Closest School:</h3>
+            <div class="separa">
+                    <input type="radio" id="AJK" name="Second_School" value="AJ Katzenmaier"/>AJ Katzenmaier
+                    <input type="radio" id="GB" name="Second_School" value="Greenbay"/>Greenbay
+            </div>
+            <div class="separa">
+                    <input type="radio" id="HAY" name="Second_School" value="Howard A Yeager"/>Howard A Yeager
+                    <input type="radio" id="MPH" name="Second_School" value="Marjorie P Hart"/>Marjorie P Hart
+            </div>
+            <div class="separa">
+                    <input type="radio" id="NE" name="Second_School" value="North Elementary"/>North Elementary
+                    <input type="radio" id="SE" name="Second_School" value="South Elementary"/>South Elementary
+            </div>
+            
+        </div>
+        <div class="regs mejora">
+            <h2 class="separat">What position(s) do you Normally_Play? (check all that apply)</h2>
+            <div class="separa">
+                        <input type="checkbox" id="fw" name="Normally_Play" value="Forward"/>Forward
+                        <input type="checkbox" id="mf" name="Normally_Play" value="Midfield"/>Midfield
+            </div>
+            <div class="separa">
+                        <input type="checkbox" id="df" name="Normally_Play" value="Defense"/>Defense
+                        <input type="checkbox" id="gk" name="Normally_Play" value="Goalkeeper"/>Goalkeeper
+                    
+                
+            </div>
+            <h2 class="separat">What position(s) do you want to play? (check all that apply)</h2>
+            <div class="separa">
+                        <input type="checkbox" id="fww" name="Want_Play" value="Forward"/>Forward
+                        <input type="checkbox" id="mfw" name="Want_Play" value="Midfield"/>Midfield
+            </div>
+            <div class="separa">            
+                        <input type="checkbox" id="dfw" name="Want_Play" value="Defense"/>Defense
+                        <input type="checkbox" id="gkw" name="Want_Play" value="Goalkeeper"/>Goalkeeper
+            </div>
+        </div>
+        <div class="regs mejora">
+                <h3 class="separat">Already have a uniform?</h3>
+            <input class="separa" type="radio" id="uniformy" name="Uniform" value="Yes"/>Yes
+            <input class="separa" type="radio" id="uniformn" name="Uniform" value="No"/>No
+                <h3 class="separat">Jersey Size</h3>
+                
+                    <div class="separa">
+                        <input type="radio" id="small" name="Jersey_Size" value="Small"/>Small
+                        <input type="radio" id="ysmall" name="Jersey_Size" value="Youth_Small"/>Youth Small
+                    </div>
+                    <div class="separa">
+                        <input type="radio" id="med" name="Jersey_Size" value="Medium"/>Medium
+                        <input type="radio" id="ymed" name="Jersey_Size" value="Youth_Medium"/>Youth Medium
+                    </div> 
+                    <div class="separa">
+                        <input type="radio" id="large" name="Jersey_Size" value="Large"/>Large
+                        <input type="radio" id="ylarge" name="Jersey_Size" value="Youth_Large"/>Youth Large
+                    </div> 
+                    <div class="separa">
+                        <input type="radio" id="xtra" name="Jersey_Size" value="Extra-Large"/>Extra-Large
+                    </div> 
+
+                    <h3 class="separat">Shorts Size</h3>
+                
+                    <div class="separa">
+                        <input type="radio" id="small" name="Shorts_Size" value="Small"/>Small
+                        <input type="radio" id="ysmall" name="Shorts_Size" value="Youth_Small"/>Youth Small
+                    </div>
+                    <div class="separa">
+                        <input type="radio" id="med" name="Shorts_Size" value="Medium"/>Medium
+                        <input type="radio" id="ymed" name="Shorts_Size" value="Youth_Medium"/>Youth Medium
+                    </div> 
+                    <div class="separa">
+                        <input type="radio" id="large" name="Shorts_Size" value="Large"/>Large
+                        <input type="radio" id="ylarge" name="Shorts_Size" value="Youth_Large"/>Youth Large
+                    </div> 
+                    <div class="separa">
+                        <input type="radio" id="xtra" name="Shorts_Size" value="Extra-Large"/>Extra-Large
+                    </div> 
+        </div>
+        <div class="regs mejora">
+        <h3 class="subr">Permission to Play</h3>
+           <p> I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+                Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+                accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+                on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+                sponsored activities, which transportation.
+            </p><p>
+                By signing below, I hereby agree and authorize the above. In addition, by entering your name below, I also acknowledge that I have read the
+                cancellation policy and agree to its terms. 
+            </p>
+            <div>
+                <label for="pgs">Parent/Guardian Signature</label>
+                <input type="text" id="pgs" name="Parent-Guardian_Signature"/>
+                <label for="date">Date</label>
+                <input type="date" id="date" value="Date"/>
+            </div>
+    </div>
+
+    <div>
+        <button class ="submit" type="submit">SUBMIT</buton>
+        <button class=" submit subclear" href="Registro.html">CLEAR</button>
+    </div>
+    </form>
+    
+
+</body>
+</html>
